@@ -3,11 +3,12 @@
 [![Current Build](https://api.travis-ci.org/stritti/Homie8266-Ping.svg?branch=master)](https://travis-ci.org/stritti/Homie8266-Ping)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-📣 Homie 3.0 Ping example for ESP8266.
+📣 Homie 3.0 Ping example for ESP8266 and ESP32.
 
 This is a simple example for Ping: You can send a Homie 3.0 compatible ping-request to the controller and it
 will answer with message 'pong'.
 For seeing it is alive, the controller sends in loop 'hello' messages.
+
 # Usage
 
 If the sketch is deployed you will get the ID of the ESP for the HOMIE-messages. Something like:
@@ -35,8 +36,7 @@ Now you are able to send any String to MQTT-topic `homie/[deviceID]/ping/ping/se
 
 # Develop & Deploy
 
-Use PlatformIO. 
-See also at Readme.md of Homie-ESP8266 project: (https://github.com/homieiot/homie-esp8266/)
+Use PlatformIO. See also at Readme.md of Homie-ESP8266 project: (https://github.com/homieiot/homie-esp8266/)
 
 ## Used Libraries
 
