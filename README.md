@@ -31,10 +31,12 @@ If the sketch is deployed you will get the ID of the ESP for the HOMIE-messages.
     ◦ Enabled? yes
 ```
 
-Now you could send to MQTT-topic `homie/[deviceID]/ping/ping/set` any string and will receive an `pong` message.
+Now you are able to send any String to MQTT-topic `homie/[deviceID]/ping/ping/set` and will receive `pong` message as reply.
+
 # Develop & Deploy
 
-Use PlatformIO.
+Use PlatformIO. 
+See also at Readme.md of Homie-ESP8266 project: (https://github.com/homieiot/homie-esp8266/)
 
 ## Used Libraries
 
