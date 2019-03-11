@@ -5,9 +5,11 @@
 
 📣 Homie 3.0 Ping example for ESP8266 and ESP32.
 
-This is a simple example for Ping: You can send a Homie 3.0 compatible ping-request to the controller and it
+This is a simple example using Homie to demopnstrate Ping: 
+You are able to send a Homie 3.0 compatible ping-request to the controller and it
 will answer with message 'pong'.
-For seeing it is alive, the controller sends in loop 'hello' messages.
+
+The controller sends in addition  in loop a still-alive-message 'hello'.
 
 # Usage
 
@@ -32,7 +34,11 @@ If the sketch is deployed you will get the ID of the ESP for the HOMIE-messages.
     ◦ Enabled? yes
 ```
 
-Now you are able to send any String to MQTT-topic `homie/[deviceID]/ping/ping/set` and will receive `pong` message as reply.
+* Open now your MQTT-Client
+* Now you are able to send any String to MQTT-topic `homie/[deviceID]/ping/ping/set` 
+* You will receive `pong` message as reply on topic `homie/[deviceID]/ping/ping`.
+
+In addition every 60 sec you will get the alive message on topic `homie/[deviceID]/ping/ping` with message `hello`.
 
 # Develop & Deploy
 
