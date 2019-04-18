@@ -1,4 +1,6 @@
-﻿# 📣 Homie 3.0 Ping Example
+**Deprecated: Example is now integrated in examples of [Homie-ESP8266](https://github.com/homieiot/homie-esp8266)**
+
+# 📣 Homie 3.0 Ping Example
 
 [![Current Build](https://api.travis-ci.org/stritti/Homie8266-Ping.svg?branch=master)](https://travis-ci.org/stritti/Homie8266-Ping)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
